@@ -1,6 +1,6 @@
 ---
-title       : Regression model
-subtitle    : visualisation / summary of the mtcars data set
+title       : R - Regression modelling of mtcars data set
+subtitle    : Web application to visualise and sum up important model characteristics
 author      : Bernard Orzechowski
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
@@ -16,7 +16,7 @@ mode        : selfcontained # {standalone, draft}
 Wouldnt't it be great to  
 
 
-1. Create on the fly different linear models on the mtcars data set in R? 
+1. Create on the fly different linear models for the mtcars data set in R? 
 
 
 2. Be able to visualize most importnat chracteristic about created mtcars linear model?  
