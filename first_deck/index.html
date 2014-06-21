@@ -50,7 +50,7 @@
 
 <ol>
 <li><p>Create on the fly different linear models on the mtcars data set in R? </p></li>
-<li><p>Be able to visualize most importnat chracteristic about the linear model?  </p></li>
+<li><p>Be able to visualize most importnat chracteristic about created mtcars linear model?  </p></li>
 <li><p>View some plot&#39;s that visualise the goodness of the build model?  </p></li>
 </ol>
 
@@ -78,10 +78,17 @@
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>mtcars characteristics</h2>
+    <h2>mtcars characteristics provided</h2>
   </hgroup>
   <article data-timings="">
     <p>You can check then the following characteristic:</p>
+
+<ol>
+<li><p>general summary produced by R  </p></li>
+<li><p>if residuals are uncorelated to model variables  </p></li>
+<li><p>if mean of residuals is near 0  </p></li>
+<li><p>Shapiro test: are model residuals normal distrbuted?  </p></li>
+</ol>
 
   </article>
   <!-- Presenter Notes -->
@@ -92,15 +99,15 @@
     <h2>mtcars dianostic plots</h2>
   </hgroup>
   <article data-timings="">
-    <p>You have visulized 4 diagnostic plots:</p>
+    <p>You have visualized 4 diagnostic plots:</p>
 
-  </article>
-  <!-- Presenter Notes -->
-</slide>
+<ol>
+<li><p>&#39;Residulas vs Fitted&#39;, a plot of residuals values against fitted values (should not follow any pattern)  </p></li>
+<li><p>&#39;Normal Q-Q&#39;that checks if the residuals follow a Normal Distribution  </p></li>
+<li><p>&#39;Scale-Location&#39; plot, also called &#39;Spread-Location&#39; is similar to the residuals versus fitted values plot, but it uses the square root of the standardized residuals. Like the first plot, there should be no discernable pattern to the plot.  </p></li>
+<li><p>&#39;Cook&#39;s distance&#39; is a statistic that tries to identify points which have more influence than other points. Generally these are points that are distant from other points in the data, either for the dependent variable or one or more independent variables.  </p></li>
+</ol>
 
-<slide class="class" id="id" style="background:;">
-  <article data-timings="">
-    
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -123,7 +130,7 @@
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='mtcars characteristics'>
+        data-slide=3 title='mtcars characteristics provided'>
          3
       </a>
     </li>
@@ -131,12 +138,6 @@
       <a href="#" target="_self" rel='tooltip' 
         data-slide=4 title='mtcars dianostic plots'>
          4
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=5 title=''>
-         5
       </a>
     </li>
   </ul>

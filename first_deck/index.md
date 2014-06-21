@@ -19,7 +19,7 @@ Wouldnt't it be great to
 1. Create on the fly different linear models on the mtcars data set in R? 
 
 
-2. Be able to visualize most importnat chracteristic about the linear model?  
+2. Be able to visualize most importnat chracteristic about created mtcars linear model?  
 
 
 3. View some plot's that visualise the goodness of the build model?  
@@ -41,20 +41,38 @@ Choose
 
 --- .class #id 
 
-## mtcars characteristics
+## mtcars characteristics provided
 
 You can check then the following characteristic:
+
+1. general summary produced by R  
+
+
+2. if residuals are uncorelated to model variables  
+
+
+3. if mean of residuals is near 0  
+
+
+4. Shapiro test: are model residuals normal distrbuted?  
 
 
 --- .class #id 
 
 ## mtcars dianostic plots
 
-You have visulized 4 diagnostic plots:
+You have visualized 4 diagnostic plots:
+
+1. 'Residulas vs Fitted', a plot of residuals values against fitted values (should not follow any pattern)  
+
+2. 'Normal Q-Q'that checks if the residuals follow a Normal Distribution  
+
+3. 'Scale-Location' plot, also called 'Spread-Location' is similar to the residuals versus fitted values plot, but it uses the square root of the standardized residuals. Like the first plot, there should be no discernable pattern to the plot.  
+
+4. 'Cook's distance' is a statistic that tries to identify points which have more influence than other points. Generally these are points that are distant from other points in the data, either for the dependent variable or one or more independent variables.  
 
 
 
---- .class #id 
 
 
 
