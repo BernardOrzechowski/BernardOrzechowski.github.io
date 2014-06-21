@@ -11,7 +11,7 @@ mode        : selfcontained # {standalone, draft}
 
 --- .class #id 
 
-## Slide 2
+## Goal
 
 Wouldnt't it be great to  
 
@@ -27,7 +27,7 @@ Wouldnt't it be great to
 
 --- .class #id 
 
-## Slide 3
+## Place to do it
 
 You can do it at https://bernardorzechowski.shinyapps.io/DevelopingDataProducts/  
 
@@ -41,14 +41,14 @@ Choose
 
 --- .class #id 
 
-## Slide 4
+## mtcars characteristics
 
 You can check then the following characteristic:
 
 
 --- .class #id 
 
-## Slide 5
+## mtcars dianostic plots
 
 You have visulized 4 diagnostic plots:
 
