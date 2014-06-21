@@ -32,12 +32,13 @@ Wouldnt't it be great to
 You can do it at https://bernardorzechowski.shinyapps.io/DevelopingDataProducts/  
 
 Choose  
-
-
 1. whatever variable you want as th regressed one (Miles/(US) gallon (mpg)?), and  
-
-
 2. one or more as the regressors (Weight? Number of cylinders (cyl) and Gross horsepower?)
+
+```{r showmdcars, echo=TRUE}
+data(mtcars)
+head(mtcars)
+```
 
 --- .class #id 
 
@@ -59,7 +60,7 @@ You can check then the following characteristic:
 
 --- .class #id 
 
-## mtcars dianostic plots
+## mtcars diagnostic plots
 
 You have visualized 4 diagnostic plots:
 
